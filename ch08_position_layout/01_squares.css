@@ -1,0 +1,25 @@
+.out {
+    width: 518px;
+    border: 2px solid #ddd;
+    padding: 12px 0 0 12px;
+    position: relative;
+}
+
+
+.out > div { 
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  margin: 0 8px 5px 0;
+  background-color: lightgray;
+}
+
+div.in {
+  background-color: gold;
+}
+
+div.small {
+  width: 48px;
+  height: 48px;
+  background-color: orangered;
+}
